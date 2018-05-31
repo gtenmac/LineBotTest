@@ -23,7 +23,7 @@ namespace LineBot001
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            bot.PushMessage(UserID, new Uri("https://github.com/gtenmac/LineBotTest/blob/master/e04.jpg"));
+            bot.PushMessage(UserID, new Uri("https://github.com/gtenmac/LineBotTest/blob/master/%E5%91%B5%E5%91%B5.jpeg"));
             bot.PushMessage(UserID, 1, 3);
         }
     }
